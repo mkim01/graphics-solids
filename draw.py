@@ -1,6 +1,7 @@
 from display import *
 from matrix import *
 from gmath import *
+from random import randint
 
 def scanline_convert(polygons, i, screen, zbuffer ):
     scan_color = [randint(0,255), randint(0,255), randint(0,255)]
