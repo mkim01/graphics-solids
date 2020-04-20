@@ -1,71 +1,24 @@
 push
 move
-250 240 0
+150 200 0
 rotate
-y 30
-rotate
-x 10
+x 20
+
 box
-0 0 0 50 250 50
-pop
-push
-move
-250 350 0
-push
-rotate
-y 30
-rotate
-x 10
+200 200 200 20 20 20
 box
-0 0 0 20 110 20
-pop
-push
-move
-0 10 0
-rotate
-y 30
-rotate
-x 10
+100 100 100 20 20 20
+
+box
+200 200 200 20 20 20
+box
+300 300 100 20 20 20
+
 sphere
-0 0 0 80
-pop
-push
-move
-0 -30 0
-rotate
-x 30
-move
-0 0 30
+0 0 0 110
 torus
-0 0 0 10 100
-pop
-push
-move
-0 -70 0
-rotate
-x 40
-torus
-0 0 0 5 90
-pop
-push
-move
--30 -150 0
-rotate
-z -20
-rotate
-x 30
-box
-0 0 0 -200 10 10
-pop
-push
-move
-40 -140 0
-rotate
-z -80
-rotate
-x 30
-box
-0 0 0 200 10 10
-display
+0 0 0 5 280
+
+
 save
-myImg.png
+robot.png
